@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CETREKAN LAMPU</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+</head>
+
+<body class="bg-gray-700">
+    <div class="container">
+        <div class="container-lamp">
+            <img src="assets/images/off.gif" alt="light off" id="lampu1" />
+            <br><br>
+            <button class="lamp-on" onclick="saklar('on', 1)">light on</button>
+            <button class="lamp-off" onclick="saklar('off', 1)">light off</button>
+        </div>
+
+        <div class="container-lamp" >
+            <img src="assets/images/off.gif" alt="light off" id="lampu2" />
+            <br><br>
+            <button class="lamp-on" onclick="saklar('on', 2)">light on</button>
+            <button class="lamp-off" onclick="saklar('off', 2)">light off</button>
+        </div>
+
+        <div class="container-lamp">
+            <img src="assets/images/off.gif" alt="light off" id="lampu3" />
+            <br><br>
+            <button class="lamp-on" onclick="saklar('on', 3)">light on</button>
+            <button class="lamp-off" onclick="saklar('off', 3)">light off</button>
+        </div>
+    </div>
+
+    
+    <script src="saklar.js"></script>
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+</body>
+
+</html>

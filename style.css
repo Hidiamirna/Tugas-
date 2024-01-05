@@ -1,0 +1,39 @@
+*,html{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    
+    
+}
+.container-lamp {
+    padding: 25px;
+}
+
+.lamp-on {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
+
+.lamp-off {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: firebrick;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}
